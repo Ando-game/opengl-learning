@@ -9,7 +9,6 @@
 #ifndef myShader_h
 #define myShader_h
 
-
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 

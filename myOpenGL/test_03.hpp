@@ -15,8 +15,13 @@
 int do_color_1();
 //light
 int do_light_1();
-int do_light_2();
-int do_light_3(); //practise
-int do_light_4(); //practise
+int do_light_2(); //practise
+//material
+int do_material_1();
+int do_material_2();
+//lighting map
+int do_lightingMap_1();
+int do_lightingMap_2();
+int do_lightingMap_3();
 
 #endif /* test_03_hpp */

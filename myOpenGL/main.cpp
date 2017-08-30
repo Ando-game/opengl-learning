@@ -57,9 +57,13 @@ int main(int argc, const char * argv[]) {
    //light
    // do_light_1();
    // do_light_2();
-   // do_light_3();
-   do_light_4();
-
+   //material
+   // do_material_1();
+   // do_material_2();
+   //lighting map
+   // do_lightingMap_1();
+   // do_lightingMap_2();
+   do_lightingMap_3();
 
 
     return 0;
