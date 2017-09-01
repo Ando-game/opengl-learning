@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A11766571F1723BC006B7700 /* test_01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1F216E41F0CE45100E61ACD /* test_01.cpp */; };
+		A1250DB01F595E6700D84404 /* libassimp.4.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1250DAD1F595E6700D84404 /* libassimp.4.0.1.dylib */; };
 		A1A3B2F71F4A8E7A0031436B /* test_02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11766521F171397006B7700 /* test_02.cpp */; };
 		A1A3B2F81F4AA2990031436B /* test_03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A3B2F41F4A83B40031436B /* test_03.cpp */; };
 		A1D8C66D1F0C91EE00EFF43C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1D8C66C1F0C91EE00EFF43C /* main.cpp */; };
@@ -36,6 +37,59 @@
 		A11766521F171397006B7700 /* test_02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_02.cpp; sourceTree = "<group>"; };
 		A11766531F171397006B7700 /* test_02.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test_02.hpp; sourceTree = "<group>"; };
 		A11766561F17225A006B7700 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		A1250DAB1F595E6700D84404 /* libassimp.4.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.4.0.1.dylib; path = include/assimp/Debug/libassimp.4.0.1.dylib; sourceTree = "<group>"; };
+		A1250DAC1F595E6700D84404 /* libassimp.4.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.4.0.1.dylib; path = include/assimp/Debug/libassimp.4.0.1.dylib; sourceTree = "<group>"; };
+		A1250DAD1F595E6700D84404 /* libassimp.4.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.4.0.1.dylib; path = include/assimp/Debug/libassimp.4.0.1.dylib; sourceTree = "<group>"; };
+		A1250DB21F59613400D84404 /* .editorconfig */ = {isa = PBXFileReference; lastKnownFileType = text; path = .editorconfig; sourceTree = "<group>"; };
+		A1250DB31F59613400D84404 /* ai_assert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ai_assert.h; sourceTree = "<group>"; };
+		A1250DB41F59613400D84404 /* anim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anim.h; sourceTree = "<group>"; };
+		A1250DB51F59613400D84404 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		A1250DB61F59613400D84404 /* cexport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cexport.h; sourceTree = "<group>"; };
+		A1250DB71F59613400D84404 /* cfileio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cfileio.h; sourceTree = "<group>"; };
+		A1250DB81F59613400D84404 /* cimport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cimport.h; sourceTree = "<group>"; };
+		A1250DB91F59613400D84404 /* color4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = color4.h; sourceTree = "<group>"; };
+		A1250DBA1F59613400D84404 /* color4.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = color4.inl; sourceTree = "<group>"; };
+		A1250DBC1F59613400D84404 /* poppack1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = poppack1.h; sourceTree = "<group>"; };
+		A1250DBD1F59613400D84404 /* pstdint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pstdint.h; sourceTree = "<group>"; };
+		A1250DBE1F59613400D84404 /* pushpack1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pushpack1.h; sourceTree = "<group>"; };
+		A1250DBF1F59613400D84404 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		A1250DC41F59613400D84404 /* DefaultIOStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultIOStream.h; sourceTree = "<group>"; };
+		A1250DC51F59613400D84404 /* DefaultIOSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultIOSystem.h; sourceTree = "<group>"; };
+		A1250DC61F59613400D84404 /* DefaultLogger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DefaultLogger.hpp; sourceTree = "<group>"; };
+		A1250DC71F59613400D84404 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		A1250DC81F59613400D84404 /* defs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		A1250DC91F59613400D84404 /* Exporter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Exporter.hpp; sourceTree = "<group>"; };
+		A1250DCA1F59613400D84404 /* Importer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Importer.hpp; sourceTree = "<group>"; };
+		A1250DCB1F59613400D84404 /* importerdesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = importerdesc.h; sourceTree = "<group>"; };
+		A1250DCC1F59613400D84404 /* IOStream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOStream.hpp; sourceTree = "<group>"; };
+		A1250DCD1F59613400D84404 /* IOSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOSystem.hpp; sourceTree = "<group>"; };
+		A1250DCE1F59613400D84404 /* light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = light.h; sourceTree = "<group>"; };
+		A1250DCF1F59613400D84404 /* Logger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Logger.hpp; sourceTree = "<group>"; };
+		A1250DD01F59613400D84404 /* LogStream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LogStream.hpp; sourceTree = "<group>"; };
+		A1250DD11F59613400D84404 /* material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		A1250DD21F59613400D84404 /* material.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = material.inl; sourceTree = "<group>"; };
+		A1250DD31F59613400D84404 /* matrix3x3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix3x3.h; sourceTree = "<group>"; };
+		A1250DD41F59613400D84404 /* matrix3x3.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = matrix3x3.inl; sourceTree = "<group>"; };
+		A1250DD51F59613400D84404 /* matrix4x4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix4x4.h; sourceTree = "<group>"; };
+		A1250DD61F59613400D84404 /* matrix4x4.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = matrix4x4.inl; sourceTree = "<group>"; };
+		A1250DD71F59613400D84404 /* mesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		A1250DD81F59613400D84404 /* metadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = metadata.h; sourceTree = "<group>"; };
+		A1250DD91F59613500D84404 /* NullLogger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NullLogger.hpp; sourceTree = "<group>"; };
+		A1250DDC1F59613500D84404 /* AndroidJNIIOSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidJNIIOSystem.h; sourceTree = "<group>"; };
+		A1250DDD1F59613500D84404 /* postprocess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = postprocess.h; sourceTree = "<group>"; };
+		A1250DDE1F59613500D84404 /* ProgressHandler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ProgressHandler.hpp; sourceTree = "<group>"; };
+		A1250DDF1F59613500D84404 /* quaternion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quaternion.h; sourceTree = "<group>"; };
+		A1250DE01F59613500D84404 /* quaternion.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = quaternion.inl; sourceTree = "<group>"; };
+		A1250DE11F59613500D84404 /* scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		A1250DE21F59613500D84404 /* SceneCombiner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneCombiner.h; sourceTree = "<group>"; };
+		A1250DE31F59613500D84404 /* texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		A1250DE41F59613500D84404 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		A1250DE51F59613500D84404 /* vector2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector2.h; sourceTree = "<group>"; };
+		A1250DE61F59613500D84404 /* vector2.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = vector2.inl; sourceTree = "<group>"; };
+		A1250DE71F59613500D84404 /* vector3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector3.h; sourceTree = "<group>"; };
+		A1250DE81F59613500D84404 /* vector3.inl */ = {isa = PBXFileReference; lastKnownFileType = text; path = vector3.inl; sourceTree = "<group>"; };
+		A1250DE91F59613500D84404 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		A1250DEA1F59617A00D84404 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		A148A5311F1C9FF000DC0E1B /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		A148A5321F1C9FF000DC0E1B /* common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
 		A148A5341F1C9FF000DC0E1B /* _features.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = _features.hpp; sourceTree = "<group>"; };
@@ -335,6 +389,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1250DB01F595E6700D84404 /* libassimp.4.0.1.dylib in Frameworks */,
 				A1F216E01F0CABB500E61ACD /* IOKit.framework in Frameworks */,
 				A1F216DE1F0CAB8300E61ACD /* CoreVideo.framework in Frameworks */,
 				A1F216DC1F0CA0FE00E61ACD /* Cocoa.framework in Frameworks */,
@@ -345,6 +400,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1250DB11F59613400D84404 /* assimp */ = {
+			isa = PBXGroup;
+			children = (
+				A1250DB21F59613400D84404 /* .editorconfig */,
+				A1250DB31F59613400D84404 /* ai_assert.h */,
+				A1250DB41F59613400D84404 /* anim.h */,
+				A1250DB51F59613400D84404 /* camera.h */,
+				A1250DB61F59613400D84404 /* cexport.h */,
+				A1250DB71F59613400D84404 /* cfileio.h */,
+				A1250DB81F59613400D84404 /* cimport.h */,
+				A1250DB91F59613400D84404 /* color4.h */,
+				A1250DEA1F59617A00D84404 /* config.h */,
+				A1250DBA1F59613400D84404 /* color4.inl */,
+				A1250DBB1F59613400D84404 /* Compiler */,
+				A1250DBF1F59613400D84404 /* config.h.in */,
+				A1250DC41F59613400D84404 /* DefaultIOStream.h */,
+				A1250DC51F59613400D84404 /* DefaultIOSystem.h */,
+				A1250DC61F59613400D84404 /* DefaultLogger.hpp */,
+				A1250DC71F59613400D84404 /* Defines.h */,
+				A1250DC81F59613400D84404 /* defs.h */,
+				A1250DC91F59613400D84404 /* Exporter.hpp */,
+				A1250DCA1F59613400D84404 /* Importer.hpp */,
+				A1250DCB1F59613400D84404 /* importerdesc.h */,
+				A1250DCC1F59613400D84404 /* IOStream.hpp */,
+				A1250DCD1F59613400D84404 /* IOSystem.hpp */,
+				A1250DCE1F59613400D84404 /* light.h */,
+				A1250DCF1F59613400D84404 /* Logger.hpp */,
+				A1250DD01F59613400D84404 /* LogStream.hpp */,
+				A1250DD11F59613400D84404 /* material.h */,
+				A1250DD21F59613400D84404 /* material.inl */,
+				A1250DD31F59613400D84404 /* matrix3x3.h */,
+				A1250DD41F59613400D84404 /* matrix3x3.inl */,
+				A1250DD51F59613400D84404 /* matrix4x4.h */,
+				A1250DD61F59613400D84404 /* matrix4x4.inl */,
+				A1250DD71F59613400D84404 /* mesh.h */,
+				A1250DD81F59613400D84404 /* metadata.h */,
+				A1250DD91F59613500D84404 /* NullLogger.hpp */,
+				A1250DDA1F59613500D84404 /* port */,
+				A1250DDD1F59613500D84404 /* postprocess.h */,
+				A1250DDE1F59613500D84404 /* ProgressHandler.hpp */,
+				A1250DDF1F59613500D84404 /* quaternion.h */,
+				A1250DE01F59613500D84404 /* quaternion.inl */,
+				A1250DE11F59613500D84404 /* scene.h */,
+				A1250DE21F59613500D84404 /* SceneCombiner.h */,
+				A1250DE31F59613500D84404 /* texture.h */,
+				A1250DE41F59613500D84404 /* types.h */,
+				A1250DE51F59613500D84404 /* vector2.h */,
+				A1250DE61F59613500D84404 /* vector2.inl */,
+				A1250DE71F59613500D84404 /* vector3.h */,
+				A1250DE81F59613500D84404 /* vector3.inl */,
+				A1250DE91F59613500D84404 /* version.h */,
+			);
+			path = assimp;
+			sourceTree = "<group>";
+		};
+		A1250DBB1F59613400D84404 /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				A1250DBC1F59613400D84404 /* poppack1.h */,
+				A1250DBD1F59613400D84404 /* pstdint.h */,
+				A1250DBE1F59613400D84404 /* pushpack1.h */,
+			);
+			path = Compiler;
+			sourceTree = "<group>";
+		};
+		A1250DDA1F59613500D84404 /* port */ = {
+			isa = PBXGroup;
+			children = (
+				A1250DDB1F59613500D84404 /* AndroidJNI */,
+			);
+			path = port;
+			sourceTree = "<group>";
+		};
+		A1250DDB1F59613500D84404 /* AndroidJNI */ = {
+			isa = PBXGroup;
+			children = (
+				A1250DDC1F59613500D84404 /* AndroidJNIIOSystem.h */,
+			);
+			path = AndroidJNI;
+			sourceTree = "<group>";
+		};
 		A148A5301F1C9FF000DC0E1B /* glm */ = {
 			isa = PBXGroup;
 			children = (
@@ -651,6 +787,9 @@
 		A15DCF1A1F0C99590040200D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1250DAB1F595E6700D84404 /* libassimp.4.0.1.dylib */,
+				A1250DAC1F595E6700D84404 /* libassimp.4.0.1.dylib */,
+				A1250DAD1F595E6700D84404 /* libassimp.4.0.1.dylib */,
 				A1F216DF1F0CABB500E61ACD /* IOKit.framework */,
 				A1F216DD1F0CAB8300E61ACD /* CoreVideo.framework */,
 				A1F216DB1F0CA0FE00E61ACD /* Cocoa.framework */,
@@ -696,6 +835,7 @@
 		A1F216BE1F0C9DEA00E61ACD /* include */ = {
 			isa = PBXGroup;
 			children = (
+				A1250DB11F59613400D84404 /* assimp */,
 				A148A5301F1C9FF000DC0E1B /* glm */,
 				A11766561F17225A006B7700 /* stb_image.h */,
 				A1F216BF1F0C9DEA00E61ACD /* deps */,
@@ -970,6 +1110,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/include",
+					"$(PROJECT_DIR)/include/assimp/Debug",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -984,6 +1125,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/include",
+					"$(PROJECT_DIR)/include/assimp/Debug",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -63,7 +63,13 @@ int main(int argc, const char * argv[]) {
    //lighting map
    // do_lightingMap_1();
    // do_lightingMap_2();
-   do_lightingMap_3();
+   // do_lightingMap_3();
+   //lighting caster
+   // do_caster_1();
+   // do_caster_2();
+   // do_caster_3();
+   //multiple lights
+   do_multiple_1();
 
 
     return 0;

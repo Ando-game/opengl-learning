@@ -23,5 +23,12 @@ int do_material_2();
 int do_lightingMap_1();
 int do_lightingMap_2();
 int do_lightingMap_3();
+//lighting caster
+int do_caster_1();
+int do_caster_2();
+int do_caster_3();
+//multiple lights
+int do_multiple_1();
+
 
 #endif /* test_03_hpp */
