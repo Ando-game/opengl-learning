@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27F98B411F598A4A00B88506 /* libassimp.4.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1250DAC1F595E6700D84404 /* libassimp.4.0.1.dylib */; };
+		27F98B461F5A888300B88506 /* test_04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27F98B441F5A888300B88506 /* test_04.cpp */; };
+		27F98B4B1F5A8E1800B88506 /* myMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27F98B491F5A8E1800B88506 /* myMesh.cpp */; };
+		27F98B4C1F5A8E1800B88506 /* myMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27F98B4A1F5A8E1800B88506 /* myMode.cpp */; };
 		A11766571F1723BC006B7700 /* test_01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1F216E41F0CE45100E61ACD /* test_01.cpp */; };
-		A1250DB01F595E6700D84404 /* libassimp.4.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1250DAD1F595E6700D84404 /* libassimp.4.0.1.dylib */; };
 		A1A3B2F71F4A8E7A0031436B /* test_02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A11766521F171397006B7700 /* test_02.cpp */; };
 		A1A3B2F81F4AA2990031436B /* test_03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A3B2F41F4A83B40031436B /* test_03.cpp */; };
 		A1D8C66D1F0C91EE00EFF43C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1D8C66C1F0C91EE00EFF43C /* main.cpp */; };
@@ -34,6 +37,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27F98B441F5A888300B88506 /* test_04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_04.cpp; sourceTree = "<group>"; };
+		27F98B451F5A888300B88506 /* test_04.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test_04.hpp; sourceTree = "<group>"; };
+		27F98B471F5A891000B88506 /* myMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myMesh.h; sourceTree = "<group>"; };
+		27F98B481F5A891000B88506 /* myModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myModel.h; sourceTree = "<group>"; };
+		27F98B491F5A8E1800B88506 /* myMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myMesh.cpp; sourceTree = "<group>"; };
+		27F98B4A1F5A8E1800B88506 /* myMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myMode.cpp; sourceTree = "<group>"; };
 		A11766521F171397006B7700 /* test_02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_02.cpp; sourceTree = "<group>"; };
 		A11766531F171397006B7700 /* test_02.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test_02.hpp; sourceTree = "<group>"; };
 		A11766561F17225A006B7700 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
@@ -389,7 +398,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1250DB01F595E6700D84404 /* libassimp.4.0.1.dylib in Frameworks */,
+				27F98B411F598A4A00B88506 /* libassimp.4.0.1.dylib in Frameworks */,
 				A1F216E01F0CABB500E61ACD /* IOKit.framework in Frameworks */,
 				A1F216DE1F0CAB8300E61ACD /* CoreVideo.framework in Frameworks */,
 				A1F216DC1F0CA0FE00E61ACD /* Cocoa.framework in Frameworks */,
@@ -820,7 +829,11 @@
 			isa = PBXGroup;
 			children = (
 				A1D8C66C1F0C91EE00EFF43C /* main.cpp */,
+				27F98B491F5A8E1800B88506 /* myMesh.cpp */,
+				27F98B4A1F5A8E1800B88506 /* myMode.cpp */,
 				A1F216E41F0CE45100E61ACD /* test_01.cpp */,
+				27F98B471F5A891000B88506 /* myMesh.h */,
+				27F98B481F5A891000B88506 /* myModel.h */,
 				A1F216E51F0CE45100E61ACD /* test_01.hpp */,
 				A1B4BFAC1F1477DF000B6181 /* myShader.h */,
 				A11766521F171397006B7700 /* test_02.cpp */,
@@ -828,6 +841,8 @@
 				A15ED0151F43F007005FDEA6 /* myCamera.h */,
 				A1A3B2F41F4A83B40031436B /* test_03.cpp */,
 				A1A3B2F51F4A83B40031436B /* test_03.hpp */,
+				27F98B441F5A888300B88506 /* test_04.cpp */,
+				27F98B451F5A888300B88506 /* test_04.hpp */,
 			);
 			path = myOpenGL;
 			sourceTree = "<group>";
@@ -971,13 +986,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F98B4C1F5A8E1800B88506 /* myMode.cpp in Sources */,
 				A1F216D61F0C9DEA00E61ACD /* getopt.c in Sources */,
+				27F98B4B1F5A8E1800B88506 /* myMesh.cpp in Sources */,
 				A1A3B2F81F4AA2990031436B /* test_03.cpp in Sources */,
 				A1F216D81F0C9DEA00E61ACD /* tinycthread.c in Sources */,
 				A11766571F1723BC006B7700 /* test_01.cpp in Sources */,
 				A1D8C66D1F0C91EE00EFF43C /* main.cpp in Sources */,
 				A1F216D71F0C9DEA00E61ACD /* glad.c in Sources */,
 				A1A3B2F71F4A8E7A0031436B /* test_02.cpp in Sources */,
+				27F98B461F5A888300B88506 /* test_04.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

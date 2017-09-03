@@ -11,6 +11,7 @@
 #include "test_01.hpp"
 #include "test_02.hpp"
 #include "test_03.hpp"
+#include "test_04.hpp"
 
 
 
@@ -69,7 +70,11 @@ int main(int argc, const char * argv[]) {
    // do_caster_2();
    // do_caster_3();
    //multiple lights
-   do_multiple_1();
+   // do_multiple_1();
+
+   //test 4
+   // do_model_1();
+   do_model_2();
 
 
     return 0;
