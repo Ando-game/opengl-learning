@@ -74,7 +74,10 @@ int main(int argc, const char * argv[]) {
 
    //test 4
    // do_model_1();
-   do_model_2();
+   // do_model_2();
+   //depth test
+   // do_depthTest_1();
+   do_depthTest_2();
 
 
     return 0;

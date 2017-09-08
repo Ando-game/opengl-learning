@@ -14,4 +14,7 @@
 int do_model_1();
 int do_model_2(); //dir light
 
+int do_depthTest_1();
+int do_depthTest_2();
+
 #endif /* test_04_hpp */
